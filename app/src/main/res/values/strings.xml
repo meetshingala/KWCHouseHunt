@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">KWC-HouseHunt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_houses">Explore Houses</string>
+    <string name="easily_locate_houses_on_the_map_using_the_integrated_google_maps">Easily locate houses on the map using the integrated Google Maps.</string>
+    <string name="find_houses_on_the_map">Find Houses on the Map</string>
+    <string name="welcome_to_kwc_housing">Welcome to KWC-Housing</string>
+    <string name="discover_the_latest_houses_available_in_the_kitchener_waterloo_cambridge_area">Discover the latest houses available in the Kitchener-Waterloo-Cambridge area.</string>
+    <string name="detailed_information">Detailed Information</string>
+    <string name="view_detailed_information_about_each_house_including_price_location_and_other_essential_details">View detailed information about each house, including price, location, and other essential details.</string>
+    <string name="houses">Houses</string>
+    <string name="add_houses">Add Houses</string>
+    <string name="map">Map</string>
+    <string name="add_house">Add House</string>
+    <string name="description">Description</string>
+    <string name="year_built">Year Built</string>
+    <string name="lot_size">Lot Size</string>
+    <string name="square_footage">Square Footage</string>
+    <string name="property_type">Property Type</string>
+    <string name="bathrooms">Bathrooms</string>
+    <string name="bedrooms">Bedrooms</string>
+    <string name="price">Price</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="address">Address</string>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/latitudeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="43.398920"
+            android:enabled="false"
+            android:hint="@string/latitude"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/longitudeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-80.502690"
+            android:enabled="false"
+            android:hint="@string/longitude"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/priceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/price"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/bedroomsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bedrooms"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/bathroomsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bathrooms"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/propertyTypeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/property_type"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/squareFootageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/square_footage"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/lotSizeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/lot_size"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/yearBuiltEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/year_built"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <EditText
+            android:minHeight="48dp"
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine" />
+
+<!--        default images-->
+<!--        <EditText-->
+<!--            android:id="@+id/imageUrlsEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Image URLs (comma-separated)"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:inputType="text" />-->
+
+<!--        this thing should happen automatically-->
+<!--        <EditText-->
+<!--            android:id="@+id/listingDateEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Listing Date (YYYY-MM-DD)"-->
+<!--            android:imeOptions="actionDone"-->
+<!--            android:inputType="date" />-->
+
+
+        <Button
+            android:id="@+id/addHouseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/add_house" />
+
+    </LinearLayout>
+</ScrollView>
